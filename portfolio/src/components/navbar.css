@@ -1,0 +1,14 @@
+.nav-container{
+    display:flex;
+    gap:5%;
+    
+    width:60%;
+    justify-content: center;
+    color: black;
+}
+.link{
+    color: #278067;
+}
+.link:hover{
+    color:#00AA00;
+}

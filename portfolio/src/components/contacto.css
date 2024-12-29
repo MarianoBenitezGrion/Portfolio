@@ -1,0 +1,15 @@
+span{
+    display: flex;
+    gap:4px;
+    align-items: center;
+}
+.contact-container{
+    display:flex;
+    flex-direction: column;
+}
+a{
+    color:white;
+}
+a:hover{
+    color:white;
+}
