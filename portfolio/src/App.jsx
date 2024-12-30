@@ -15,9 +15,10 @@ function App() {
     <div className='body'>
 
       
-        <Header />
+        
         
         <BrowserRouter basename='/Portfolio'>
+        <Header />
         <Navbar />
         <Routes>
           <Route path="/" element={<Perfil />}></Route>
@@ -26,10 +27,11 @@ function App() {
           <Route path='/Proyectos' element={<Proyectos />}></Route>
           <Route path='/Estudios' element={<Estudios/>}></Route>
         </Routes>
+        <Footer />
         </BrowserRouter>
         <FixedButtons />
       
-      <Footer />
+      
     </div>
   )
 }
