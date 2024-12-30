@@ -17,7 +17,7 @@ function App() {
       
         <Header />
         
-        <BrowserRouter>
+        <BrowserRouter basename='/Portfolio'>
         <Navbar />
         <Routes>
           <Route path="/" element={<Perfil />}></Route>
