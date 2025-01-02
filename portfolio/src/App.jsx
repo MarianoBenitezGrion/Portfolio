@@ -26,6 +26,7 @@ function App() {
           <Route path='/Habilidades' element={<Habilidades />}></Route>
           <Route path='/Proyectos' element={<Proyectos />}></Route>
           <Route path='/Estudios' element={<Estudios/>}></Route>
+          <Route path='*' element={<Perfil />}></Route>
         </Routes>
         <Footer />
         </BrowserRouter>
