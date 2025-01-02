@@ -17,7 +17,7 @@ function App() {
       
         
         
-        <BrowserRouter >
+        <BrowserRouter basename='/Portfolio'>
         <Header />
         <Navbar />
         <Routes>

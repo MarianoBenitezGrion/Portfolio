@@ -5,7 +5,8 @@ img.perfil{
     
 }
 .image-container{
-    width: 250px;
+    height: 50vh;
     justify-items: center;
     align-items: center;
+    margin: 2px;
 }

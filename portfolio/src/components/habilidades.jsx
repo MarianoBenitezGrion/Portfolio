@@ -8,8 +8,8 @@ import { FaHtml5 } from "react-icons/fa";
 import { SiSpring } from "react-icons/si";
 import './habilidades.css';
 const Habilidades=()=>{
-    const classItem="item"
-    const boxSize='90%';
+    const classItem="item";
+    const boxSize='cover';
     
     return (
         <>

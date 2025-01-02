@@ -3,17 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist --repo https://github.com/MarianoBenitezGrion/Portfolio"
+    
+
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
+    
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
