@@ -8,7 +8,7 @@ const CVIcon=({download})=>{
                     <IoMdDownload id="icon-download" size={"20%"} /> Descarga CV
                 </>
             ) : (
-                <MdFileDownloadDone size={"60%"} color="green" />
+                <MdFileDownloadDone size={"40%"} color="green" />
             )}
         </>
     );

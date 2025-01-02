@@ -1,4 +1,4 @@
-
+import './Perfil.css';
 const Perfil=()=>{
     return(
         <>
