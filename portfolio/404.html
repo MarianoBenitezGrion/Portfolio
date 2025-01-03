@@ -1,19 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Redirect</title>
-
-    </head>
+<html>
+<head>
+    <meta http-equiv="refresh" content="0; url=/" />
+</head>
 <body>
-    <div id="root"></div>
-    <script type="text/javascript">
-            
-        var target = window.location.pathname.replace('/Portfolio', '');
-        if (!target.startsWith('/')) target = '/' + target;
-        window.location.href = '/Portfolio/index.html#' + target;
+
+    <p>Redirecting...</p>
+    <script>
+        window.location.replace('/Portfolio/');
     </script>
-    <script src="/Portfolio/static/js/main.js"></script>
 </body>
 </html>

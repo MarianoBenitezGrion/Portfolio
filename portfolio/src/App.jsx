@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/header';
 import Navbar from './components/navbar';
@@ -14,11 +14,9 @@ function App() {
   return (
     <div className='body'>
 
-      
-        
-        
-        <BrowserRouter basename='/Portfolio'>
         <Header />
+        <HashRouter>
+        
         <Navbar />
         <Routes>
           <Route path="/" element={<Perfil />}></Route>
@@ -28,8 +26,9 @@ function App() {
           <Route path='/Estudios' element={<Estudios/>}></Route>
           <Route path='*' element={<Perfil />}></Route>
         </Routes>
+        
+        </HashRouter>
         <Footer />
-        </BrowserRouter>
         <FixedButtons />
       
       

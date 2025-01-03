@@ -11,7 +11,7 @@ const CVButton=()=>{
     return(
         <>
             <div id="cv-button" class="cv-button-container" onClick={()=>{setDescarga(true)}}> 
-            <a href="https://MarianoBenitezGrion.github.io/Portfolio/assets/files/CV-Mariano-Benitez-Grion.pdf" download="CV-Mariano-Benitez-Grion.pdf" className="cv-button-style" >
+            <a href="https://github.com/MarianoBenitezGrion/Portfolio/src/assets/files/CV-Mariano-Benitez-Grion.pdf" download="CV-Mariano-Benitez-Grion.pdf" className="cv-button-style" >
                 <CVIcon download={descarga} /></a>
             </div>
         </>
