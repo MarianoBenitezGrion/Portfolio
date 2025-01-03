@@ -9,21 +9,19 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist --repo https://github.com/MarianoBenitezGrion/Portfolio"
-    
-
+    "predeploy": "npm run build && copyfiles -u 3 src/assets/files/* dist/assets/files/",
+    "deploy": "gh-pages -d dist --repo https://github.com/MarianoBenitezGrion/Portfolio"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
-    
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.4",
+    "copyfiles": "^2.4.1",
     "eslint": "^9.15.0",
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
