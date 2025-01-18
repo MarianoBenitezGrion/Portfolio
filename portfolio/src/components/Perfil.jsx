@@ -9,13 +9,11 @@ const Perfil=()=>{
                 Mi nombre es Mariano, soy desarrollador full stack junior.
             </p>
             <p>
-                Manejo lenguajes cómo Java con Spring, SQL en algunos sistemas gestores de base de datos, 
-                manejo de Javascript con React.
-    
+                Manejo diversas Tecnologías, en los cuales destaco <strong>Java</strong> con <strong>Spring</strong>, <strong>SQL</strong>, <strong>CSS</strong>, <strong>HTML</strong> y <strong>Javascript</strong> con <strong>React</strong>.
             </p>
             <p>
-                Recibido de la Tecnicatura Universitaria en Programación y Tecnicatura Universitaria en Sistemas Informáticos (UTN). 
-                También cuento con estudios completos en los cursos de Desarrollo web, Javascript y React en Coderhouse.
+                Soy alumno recibido de la <strong>Tecnicatura Universitaria en Programación</strong> y <strong>Tecnicatura Universitaria en Sistemas Informáticos</strong> (UTN). 
+                También cuento con estudios completos en los cursos de Desarrollo web, Javascript y React en <strong>Coderhouse</strong>.
             </p>
         </div>
         </>

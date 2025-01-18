@@ -1,14 +1,21 @@
 .nav-container{
     display:flex;
     gap:5%;
-    
-    width:60%;
+    width:50vw;
     justify-content: center;
     color: black;
+    margin: 0 auto;
 }
 .link{
     color: #278067;
 }
 .link:hover{
     color:#00AA00;
+}
+@media (max-width:340px) {
+    .nav-container{
+        width:90%;
+        gap:2%;
+        margin:0 auto;
+    }
 }

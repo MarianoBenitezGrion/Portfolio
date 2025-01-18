@@ -1,6 +1,17 @@
 .hide-icon{
-    /*-webkit-box-shadow: 1px 2px 7px 3px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 2px 7px 3px rgba(0,0,0,0.75);
-box-shadow: 1px 2px 7px 3px rgba(0,0,0,0.75);*/
-    filter:drop-shadow(3px 3px 7px 3px rgba(0,0,0,0.75));
+    position: relative;
+}
+.icon-shadow{
+    color: rgba(0, 0, 0, 0.8);
+    transform: scale(1.1);
+    position: absolute;
+    top: 0;  
+    left: 0;  
+    filter: blur(2px);  
+    z-index: -1;
+}
+
+.icon-container{
+    position:relative;
+    display: inline-block;
 }

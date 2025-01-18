@@ -12,43 +12,59 @@ const Habilidades=()=>{
     const boxSize='cover';
     
     return (
-        <>
+        <div className="habilidades-container">
         <h3>Habilidades</h3>
         <div class="d-grid">
             <div className={classItem}>
+            <div className="item-icon">
                 <DiJava size={boxSize}/>
                 <span>Java</span>
             </div>
-            <div className={classItem}>
-                <DiJsBadge size={boxSize}/>
-                <span>Javascript</span>
             </div>
             <div className={classItem}>
-                <DiGit size={boxSize}/>
-                <span>Git</span>
+                <div className="item-icon">
+                    <DiJsBadge size={boxSize}/>
+                    <span>Javascript</span>
+                </div>
             </div>
             <div className={classItem}>
-                <FaReact size={boxSize}/>
-                <span>React</span>
+                <div className="item-icon">
+                    <DiGit size={boxSize}/>
+                    <span>Git</span>
+                </div>
             </div>
             <div className={classItem}>
-                <FaDatabase size={boxSize}/>
-                <span>SQL</span>
+                <div className="item-icon">
+                    <FaReact size={boxSize}/>
+                    <span>React</span>
+                </div>
             </div>
             <div className={classItem}>
-                <FaHtml5 size={boxSize}/>
-                <span>HTML</span>
+                <div className="item-icon">
+                    <FaDatabase size={boxSize}/>
+                    <span>SQL</span>
+                </div>
             </div>
             <div className={classItem}>
-                <IoLogoCss3 size={boxSize}/>
-            <span>CSS</span>
+                <div className="item-icon">
+                    <FaHtml5 size={boxSize}/>
+                    <span>HTML</span>
+                </div>
             </div>
             <div className={classItem}>
-                <SiSpring size={boxSize}/>
-            <span>Spring</span>
+                <div className="item-icon">
+                    <IoLogoCss3 size={boxSize}/>
+                <span>CSS</span>
+                </div>
+            </div>
+            <div className={classItem}>
+                <div className="item-icon">
+                    <SiSpring size={boxSize}/>
+                <span>Spring</span>
+                </div>
             </div>
         </div>
-        </>
+        </div>
     );
 }
 export default Habilidades;

@@ -26,9 +26,9 @@ function App() {
           <Route path='/Estudios' element={<Estudios/>}></Route>
           <Route path='*' element={<Perfil />}></Route>
         </Routes>
-        
-        </HashRouter>
         <Footer />
+        </HashRouter>
+        
         <FixedButtons />
       
       

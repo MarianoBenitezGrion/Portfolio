@@ -15,7 +15,7 @@ const Proyectos=()=>{
                 <img  alt="proyecto-consultorio-medico" />
             </picture>
             <div id='descripcion-consultorio-medico' className='project-description'>
-                <h3>Consultorio Medico</h3>
+                <h3>Consultorio Médico</h3>
                 <p>Java, Spring, Hibernate, MySQL</p>
                 <div className='description-button'>
                     <a href="https://github.com/MarianoBenitezGrion/Consultorio-Medico">Ver repositorio</a>
@@ -32,7 +32,7 @@ const Proyectos=()=>{
             </picture>
             <div id='descripcion-aeropuerto' className='project-description'>
                 <h3>Aeropuerto</h3>
-                <p>C#, ASP.NET, MySQL</p>
+                <p>C#, ASP.NET, SQL Server</p>
                 <div className='description-button'>
                     <a href="https://github.com/MarianoBenitezGrion/Aeropuerto">Ver repositorio</a>
                 </div>

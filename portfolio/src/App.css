@@ -2,17 +2,19 @@ body,html, #root{
     margin:0;
     padding:0;
     width:100vw;
-    height:100vh;
+    min-height:100vh;
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
     overflow-x:hidden;
 }
+
 .body{
     size:cover;
-background-color: black;
+    background-color: black;
     color:white;
     justify-items:center;
     text-align: center;
+    
 }
 html{
     height:100%;

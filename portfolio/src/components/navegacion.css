@@ -1,0 +1,12 @@
+.nav-footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.link-footer{
+    color: white;
+}
+.link-footer:hover{
+    color:white;
+}

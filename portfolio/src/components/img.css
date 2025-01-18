@@ -2,11 +2,17 @@ img.perfil{
     height: 100%;
     width: 100%;
     border-radius: 100%;
-    
+    max-width: 250px;
 }
 .image-container{
-    height: 50vh;
-    justify-items: center;
+    
+    justify-content: center;
     align-items: center;
     margin: 2px;
+    width: 100%;
+    
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
