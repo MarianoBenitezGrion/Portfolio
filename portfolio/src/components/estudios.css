@@ -1,11 +1,9 @@
 .studies-container{
     display: flex;
     flex-direction: column;
-    gap: 5%;
+    gap: 8px;
     text-align: center;
     justify-content: center;
     margin: 2%;
 }
-.studies-container span{
-    justify-content: center;
-}
+
